@@ -1,6 +1,6 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
+    "title":"清澜博客",
+    "subTitle":"人海十万里 没有人善待你",
     "avatarUrl":"http://gr.exvugx.cn/img/3333.gif",
     "GMEEK_VERSION":"last",
     "displayTitle":"Meekdai",
@@ -22,5 +22,5 @@
     "style":"",
     "script":"",
     "showPostSource":"1",
-    "rssSplit":"sentence",
+    "rssSplit":"sentence"
 }
