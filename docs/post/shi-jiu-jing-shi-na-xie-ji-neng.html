@@ -9,7 +9,68 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="是究竟是哪些技能">
+<meta name="description" content="三四个号公司
+`<html>
+<body>
+<!--StartFragment-->
+/**
+--
+  | * WordPress 显示评论者 IP 归属地 PHP 函数
+  | * https://zhang.ge/5060.html
+  | **/
+  | function get_locate($ip) {
+  | if(empty($ip)) $ip = get_comment_author_IP();
+  | $ch = curl_init();
+  | $timeout = 5;
+  | curl_setopt ($ch, CURLOPT_URL, 'http://ip.taobao.com/service/getIpInfo.php?ip='.$ip);
+  | curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
+  | curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+  | $file_contents = curl_exec($ch);
+  | curl_close($ch);
+  | $result = json_decode($file_contents,true);
+  | if ($result['data']['country'] != '中国') {
+  | return $result['data']['country'];
+  | } else {
+  | return $result['data']['country'].'&nbsp;·&nbsp;'.$result['data']['region'].'&nbsp;·&nbsp;'.$result['data']['city'].'&nbsp;·&nbsp;'.$result['data']['isp'];
+  | }
+  | }
+
+<!--EndFragment-->
+</body>
+</html>`。">
+<meta property="og:title" content="是究竟是哪些技能">
+<meta property="og:description" content="三四个号公司
+`<html>
+<body>
+<!--StartFragment-->
+/**
+--
+  | * WordPress 显示评论者 IP 归属地 PHP 函数
+  | * https://zhang.ge/5060.html
+  | **/
+  | function get_locate($ip) {
+  | if(empty($ip)) $ip = get_comment_author_IP();
+  | $ch = curl_init();
+  | $timeout = 5;
+  | curl_setopt ($ch, CURLOPT_URL, 'http://ip.taobao.com/service/getIpInfo.php?ip='.$ip);
+  | curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
+  | curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+  | $file_contents = curl_exec($ch);
+  | curl_close($ch);
+  | $result = json_decode($file_contents,true);
+  | if ($result['data']['country'] != '中国') {
+  | return $result['data']['country'];
+  | } else {
+  | return $result['data']['country'].'&nbsp;·&nbsp;'.$result['data']['region'].'&nbsp;·&nbsp;'.$result['data']['city'].'&nbsp;·&nbsp;'.$result['data']['isp'];
+  | }
+  | }
+
+<!--EndFragment-->
+</body>
+</html>`。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ql-fa.github.io//post/shi-jiu-jing-shi-na-xie-ji-neng.html">
+<meta property="og:image" content="http://gr.exvugx.cn/img/3333.gif">
 <title>是究竟是哪些技能</title>
 
 
