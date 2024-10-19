@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>云瑾博客</title><link>https://ql-fa.github.io/</link><description>人海十万里 没有人善待你</description><copyright>云瑾博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://wx1.sinaimg.cn/mw690/008fjiZPly1hu4sgwb81ij30u00t8445.jpg</url><title>avatar</title><link>https://ql-fa.github.io/</link></image><lastBuildDate>Sat, 19 Oct 2024 09:51:44 +0000</lastBuildDate><managingEditor>云瑾博客</managingEditor><ttl>60</ttl><webMaster>云瑾博客</webMaster><item><title>很多人不知道怎么批量替换播放地址图片地址</title><link>https://ql-fa.github.io//post/hen-duo-ren-bu-zhi-dao-zen-me-pi-liang-ti-huan-bo-fang-di-zhi-tu-pian-di-zhi.html</link><description>很多人不知道怎么批量替换播放地址，教程如下
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>云瑾博客</title><link>https://ql-fa.github.io/</link><description>人海十万里 没有人善待你</description><copyright>云瑾博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://wx1.sinaimg.cn/mw690/008fjiZPly1hu4sgwb81ij30u00t8445.jpg</url><title>avatar</title><link>https://ql-fa.github.io/</link></image><lastBuildDate>Sat, 19 Oct 2024 10:13:01 +0000</lastBuildDate><managingEditor>云瑾博客</managingEditor><ttl>60</ttl><webMaster>云瑾博客</webMaster><item><title>很多人不知道怎么批量替换播放地址图片地址</title><link>https://ql-fa.github.io//post/hen-duo-ren-bu-zhi-dao-zen-me-pi-liang-ti-huan-bo-fang-di-zhi-tu-pian-di-zhi.html</link><description>很多人不知道怎么批量替换播放地址，教程如下
 1、播放地址批量替换：后台---数据库---数据批量替换mac_vod-vod_play_url
 
 2、图片批量替换：后台---数据库---数据批量替换mac_vod-vod_pic
@@ -7,32 +7,4 @@
 3、看图操作
 ![1713580978960.jpg](https://github.com/ql-fa/ql-fa.github.io/assets/146798253/de7ce692-258b-43eb-b857-15fb489ddc74)
 
-。</description><guid isPermaLink="true">https://ql-fa.github.io//post/hen-duo-ren-bu-zhi-dao-zen-me-pi-liang-ti-huan-bo-fang-di-zhi-tu-pian-di-zhi.html</guid><pubDate>Sun, 07 Apr 2024 03:54:45 +0000</pubDate></item><item><title>是究竟是哪些技能</title><link>https://ql-fa.github.io//post/shi-jiu-jing-shi-na-xie-ji-neng.html</link><description>三四个号公司&#13;
-`&lt;html&gt;&#13;
-&lt;body&gt;&#13;
-&lt;!--StartFragment--&gt;&#13;
-/**&#13;
---&#13;
-  | * WordPress 显示评论者 IP 归属地 PHP 函数&#13;
-  | * https://zhang.ge/5060.html&#13;
-  | **/&#13;
-  | function get_locate($ip) {&#13;
-  | if(empty($ip)) $ip = get_comment_author_IP();&#13;
-  | $ch = curl_init();&#13;
-  | $timeout = 5;&#13;
-  | curl_setopt ($ch, CURLOPT_URL, 'http://ip.taobao.com/service/getIpInfo.php?ip='.$ip);&#13;
-  | curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);&#13;
-  | curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout);&#13;
-  | $file_contents = curl_exec($ch);&#13;
-  | curl_close($ch);&#13;
-  | $result = json_decode($file_contents,true);&#13;
-  | if ($result['data']['country'] != '中国') {&#13;
-  | return $result['data']['country'];&#13;
-  | } else {&#13;
-  | return $result['data']['country'].'&amp;nbsp;·&amp;nbsp;'.$result['data']['region'].'&amp;nbsp;·&amp;nbsp;'.$result['data']['city'].'&amp;nbsp;·&amp;nbsp;'.$result['data']['isp'];&#13;
-  | }&#13;
-  | }&#13;
-&#13;
-&lt;!--EndFragment--&gt;&#13;
-&lt;/body&gt;&#13;
-&lt;/html&gt;`。</description><guid isPermaLink="true">https://ql-fa.github.io//post/shi-jiu-jing-shi-na-xie-ji-neng.html</guid><pubDate>Sun, 07 Apr 2024 02:36:29 +0000</pubDate></item></channel></rss>
+。</description><guid isPermaLink="true">https://ql-fa.github.io//post/hen-duo-ren-bu-zhi-dao-zen-me-pi-liang-ti-huan-bo-fang-di-zhi-tu-pian-di-zhi.html</guid><pubDate>Sun, 07 Apr 2024 03:54:45 +0000</pubDate></item><item><title>是究竟是哪些技能</title><link>https://ql-fa.github.io//post/shi-jiu-jing-shi-na-xie-ji-neng.html</link><description>电视直播源地址1:https://ghp.ci/raw.githubusercontent.com/ql-fa/collect-tv-txt/main/merged_output.txt。</description><guid isPermaLink="true">https://ql-fa.github.io//post/shi-jiu-jing-shi-na-xie-ji-neng.html</guid><pubDate>Sun, 07 Apr 2024 02:36:29 +0000</pubDate></item></channel></rss>
